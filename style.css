@@ -7,13 +7,13 @@ body {
   text-align: center;
   border: solid #c01d4a 1px;
   background-color: #c01d4a;
-  width: 800px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   color: white;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  height: 450px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 400px;
   padding: 0px;
   margin-top: 30px;
 }
@@ -91,12 +91,15 @@ h1 {
 
 /* Testing switch */
 .switch {
-  position: relative;
+  position:relative;
   display: block;
   width: 60px;
   height: 34px;
-  margin-left:;
-  margin-right: 100px;
+ 
+  margin-bottom:110px;
+  margin-left:-55px;
+margin-right:200px;
+  
 }
 
 .switch input {
@@ -115,7 +118,15 @@ h1 {
   background-color: #ccc;
   transition: background-color 0.4s;
 }
+.k{
+
+  position:relative;
+  left:-105px;
+}
 .s{
+  margin-left:px;
+}
+.s,.k{
   font-size:60px;
   
  
