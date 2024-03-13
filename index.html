@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+  <title>FrontendPro Sandbox</title>
+  <meta charset="UTF-8" />
+  <!-- DO NOT import fonts here. Instead, use the 
+  @import directive in the styles.css file. -->
+</head>
+
+<body>
+  <header id='box1'>
+    <p class="s">Your current plan</p>
+    <h1 class="b">Starter Trial - 500MAUS</h1>
+  </header>
+  <section id='secOne'>
+  <h1 class="b">Choose a plan</h1>
+  <div class='toggle-container'>
+    <p class="s ">Billed monthly</p>
+    <label class="switch">
+      <input type="checkbox">
+      <span class="slider"></span>
+    </label>
+    <p class='s'>Billed yearly</p>
+  </div>
+
+
+</section>
+
+
+
+
+    <div id='container'>
+    <div id='box2'>
+      <p class='p'>Starter</p>
+      <h1 class="b">$19</h1>
+      <ul>
+        <li>500 MAUS</li>
+        <li>3 projects</li>
+        <li>Unlimited Guides</li>
+        <li>Unlimited branded themes</li>
+        <li>Small support</li>
+      </ul>
+      <button class='checked c'id='button1' onclick="highlightButton(this)" >Trial Plan</button>
+    </div>
+
+
+    <div id='box3'>
+      <p class='p'>Pro</p>
+      <h1 class='b'>$99/month</h1> 
+      <select class='center'>
+  <option  value="" disabled selected hidden>2500MAUS</option>
+  <option value="link1">2500MAUS</option>
+  <option value="link2">5000MAUS</option>
+  <option value="link3">10000 MAUS</option>
+
+</select>
+<ul>
+    <li>All starter features plan</li>
+    <li>Unlimited projects</li>
+    <li>A dedicated Customer Success Manager</li>
+</ul>
+<button id='button2'class="d" onclick="highlightButton(this)">Pro Plan</button>
+    </div>
+
+
+    <div id='box4'>
+        <p class="p">Enterprise</p>
+        <h1 class="b">Let's Talk!</h1>
+        <ul>
+            <li>All Pro features</li>
+            <li>Unlimted MAUS</li>
+            <li>Dedicated environment</li>
+            <li>Enterprise account administration</li>
+            <li>Premium support and services</li>
+        </ul>
+        <button id='button3'class="e" onclick="highlightButton(this)">Enterprise Plan</button>
+    </div>
+    </div>
+  
+  </section>
+
+
+ 
+
+</body>
+<script src="javascript.js"></script>
+
+</html>
