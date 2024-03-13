@@ -34,3 +34,11 @@ billingToggle.addEventListener("change", function() {
    
   }
 });
+
+let mausSelect = document.getElementById("#maus-select");
+const monthlyToggle = document.getElementById("#monthly-toggle")
+const yearlyToggle = document.getElementById("#yearly-toggle")
+
+
+
+
